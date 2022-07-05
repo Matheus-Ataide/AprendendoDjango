@@ -1,10 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-entrou em celulares
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+    </head>
+    <body>
+    entrou em celulares
+
+
+
+    <thead>
+        <tbody>
+            {% for produto in produtos %}
+                <tr>
+                    <td> {{ produto.nome }}</td>
+                    <td>R$ {{ produto.preco }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </thead>
+
+    {% if idade <= 12 %}
+        <p>criança</p>
+    {% elif idade > 12 and idade <= 18 %}
+            <p>adolescente</p>
+    {% else %}
+            <p>adulto</p>
+    {% endif %}
+
+
+    </body>
 </html>
