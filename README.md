@@ -12,3 +12,10 @@ django-admin startapp <nome da pasta que está ás paginas>
  
 ### Abrir servidor:
 python .\manage.py runserver
+
+
+### Site para baixar Danjo e Python
+https://docs.djangoproject.com/pt-br/4.0/intro/install/
+
+### Começar projeto
+https://docs.djangoproject.com/pt-br/4.0/intro/tutorial01/
